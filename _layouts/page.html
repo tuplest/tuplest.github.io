@@ -1,29 +1,20 @@
-<!DOCTYPE html>
-<html>
-<head>
+---
+layout: default
+---
 
-  {% include head.html %}
+{% include lang.html %}
 
-  <link rel="stylesheet" href="{{ 'assets/css/page.css' | relative_url }}" media="all">
-
-</head>
-<body>
-
-  <div class="page-content clear-header--top clear-navbar--top clear-footer--bottom">
-
-    {% include header.html %}
-
-    {% include navigation.html %}
-
-    <main class="main clear-header--left">
-
+<article class="px-1">
+  {% if page.layout == 'page' or page.collection == 'tabs' %}
+    {% assign tab_key = page.title | downcase %}
+    {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
+    <h1 class="dynamic-title">
+      {{ title }}
+    </h1>
+    <div class="content">
+      {{ content }}
+    </div>
+  {% else %}
     {{ content }}
-
-    </main>
-
-    {% include footer.html %}
-
-  </div>
-
-</body>
-</html>
+  {% endif %}
+</article>
