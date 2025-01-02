@@ -2,10 +2,10 @@
 # ============================================================================
 # if your site is serving on https://xxx.github.io, set `baseurl: /`
 # if your site is serving on https://xxx.github.io/path, set `baseurl: /path`
-baseurl: /tuplest.github.io
+baseurl: /
 
 # site title
-title: Book
+title: tuple
 
 # site favicon, absolute path required
 favicon: /assets/img/favicon.ico
