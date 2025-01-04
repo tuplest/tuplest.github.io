@@ -51,12 +51,12 @@ _check_status() {
   fi
 }
 
-_check_init() {
-  if [[ $(git rev-parse HEAD^1) == "$RELEASE_HASH" ]]; then
-    echo "Already initialized."
-    exit 0
-  fi
-}
+# _check_init() {
+#   if [[ $(git rev-parse HEAD^1) == "$RELEASE_HASH" ]]; then
+#     echo "Already initialized."
+#     exit 0
+#   fi
+# }
 
 check_env() {
   _check_cli
