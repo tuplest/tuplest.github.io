@@ -45,7 +45,7 @@ _check_cli() {
 }
 
 _check_status() {
-  if [[ -n $(git status . -s 2>/dev/null) ]]; then
+  if [[ -n $(git status . -s) ]]; then
     echo "Error: Commit unstaged files first, and then run this tool again."
     exit 1
   fi
