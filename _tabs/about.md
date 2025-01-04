@@ -7,16 +7,16 @@ order: 4
 ---
 
 ## **Name**
-임지윤 (Lim Jiyun)
+**임지윤** (Lim Jiyun)
 
 ## **Nickname**
-Tuple (tuplest)<br><br>
+**Tuple** (tuplest)<br><br>
 
 ---
 
 ## **Contact**
 - **Email**: [limjiyun08@gmail.com](mailto:limjiyun08@gmail.com)
-- **Discord**: [discordapp.com/users/1170277599705059400](https://discordapp.com/users/1170277599705059400)<br><br>
+- **Discord**: [discord.tuplest](https://discordapp.com/users/1170277599705059400)<br><br>
 
 
 ---

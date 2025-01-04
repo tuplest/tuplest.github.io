@@ -3,8 +3,9 @@
 - type: github
   icon: "fab fa-github"
 
-# - type: twitter
-#   icon: "fa-brands fa-x-twitter"
+- type: dreamhack
+  icon: "fa-solid fa-user"
+  url: "https://dreamhack.io/users/49506"
 
 - type: email
   icon: "fas fa-envelope"
