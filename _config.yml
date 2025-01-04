@@ -224,5 +224,11 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 plugins:
    - jekyll-target-blank
