@@ -4,5 +4,28 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-> Add Markdown syntax content to file `_tabs/about.md`{: .filepath } and it will show up on this page.
-{: .prompt-tip }
+---
+
+## **Name**
+임지윤 (Lim Jiyun)
+
+## **Nickname**
+Tuple (tuplest)<br><br>
+
+---
+
+## **Contact**
+- **Email**: [limjiyun08@gmail.com](mailto:limjiyun08@gmail.com)
+- **Discord**: [discordapp.com/users/1170277599705059400](https://discordapp.com/users/1170277599705059400)<br><br>
+
+
+---
+
+## **Education**
+- **Korea Digital Media High School** (2024.03 ~)
+  - Major: Hacking Defense<br><br>
+
+---
+
+## **Affiliation**
+- **TRUST**: KDMHS Hacking Club
