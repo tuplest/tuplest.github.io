@@ -61,7 +61,7 @@ _check_status() {
 check_env() {
   _check_cli
   _check_status
-  _check_init
+  # _check_init
 }
 
 reset_latest() {
