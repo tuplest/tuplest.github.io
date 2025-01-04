@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://tuplest.github.io/sitemap.xml
