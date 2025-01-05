@@ -7,10 +7,10 @@ order: 4
 ---
 
 ## **Name**
-**임지윤** (Lim Jiyun)
+- **임지윤** (Lim Jiyun)
 
 ## **Nickname**
-**Tuple** (tuplest)<br><br>
+- **Tuple** (tuplest)<br><br>
 
 ---
 

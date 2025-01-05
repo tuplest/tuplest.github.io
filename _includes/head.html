@@ -9,9 +9,6 @@
     name="viewport"
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
-  {% if page.use_math %}
-    {% include mathjax_support.html %}
-  {% endif %}
   
   {%- capture seo_tags -%}
     {% seo title=false %}
@@ -127,4 +124,8 @@
   {% endif %}
 
   {% include metadata-hook.html %}
+
+  {% if page.use_math %}
+    {% include mathjax_support.html %}
+  {% endif %}
 </head>

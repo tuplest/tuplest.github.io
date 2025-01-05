@@ -34,7 +34,7 @@ github:
 social:
   # Change to your full name.
   # It will be displayed as the default author of the posts and the copyright owner in the Footer
-  name: tuple
+  name: Tuple
   email: limjiyun08@gmail.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -153,7 +153,14 @@ baseurl: ""
 
 # ------------ The following options are not recommended to be modified ------------------
 
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
 kramdown:
+  math_engine: mathjax
   footnote_backlink: "&#8617;&#xfe0e;"
   syntax_highlighter: rouge
   syntax_highlighter_opts: # Rouge Options › https://github.com/jneen/rouge#full-options
@@ -223,12 +230,6 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
-
-markdown: kramdown
-highlighter: rouge
-lsi: false
-excerpt_separator: "\n\n"
-incremental: false
 
 plugins:
    - jekyll-target-blank
