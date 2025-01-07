@@ -6,6 +6,7 @@ tags: [ctf, yisf, rev]
 author: Tuple
 description: YISF 2024 Write Up (all rev)
 toc: true
+use_math: true
 ---
 
 ## YISF 2024
