@@ -1,6 +1,6 @@
 ---
 title: YISF 2024 All REV Write Up
-data: 2025-01-08 03:35:20 +0900
+date: 2025-01-08 03:35:20 +0900
 categories: [ctf, "2024"]
 tags: [ctf, yisf, rev]
 author: Tuple
