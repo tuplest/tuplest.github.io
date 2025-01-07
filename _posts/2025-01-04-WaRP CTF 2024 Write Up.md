@@ -9,7 +9,7 @@ toc: true
 use_math: true
 ---
 
-## 2024 WaRP CTF
+## WaRP CTF 2024
 
 2024년 12월 27일부터 29일까지 2일 동안 진행된 경기과학고등학교 WaRP 주최의 WaRP CTF에 친구들과 함께 참여하였다. 웹하는 팀원 한 명의 버스로 어쩌다 1등까지 하게 되었는데 나는 리버싱 한 문제 풀이와 다른 팀원의 미스크 문제 풀이를 돕는 것 밖에 하지 못 했다. 출제된 리버싱 문제 중 하나를 업솔빙했지만 너무 심하게 버스 탄 것 같아서 다음에는 조금 더 분발하고자 한다.
 
@@ -219,7 +219,7 @@ bin_code = bin_code.replace(' ', '')
 for i in range(0, len(bin_code), 8):
     print(chr(int(bin_code[i:i+8], 2)), end = '')
 ```
-base64 디코딩하면 어떤 구글 드라이브 주소가 나오고 이에 접속하면 ```flag.zip```, ```password.zip```, ```My_Study```가 존재하고 각각의 zip 파일은 비밀번호로 막혀있다. ```My_Study``` 폴더 안에는 ```Calculus```, ```Differential_Equations```, ```Linear_Algebra```, ```Number_Theory```라는 폴더가 존재하는데 각각의 폴더에는 ```https://www.youtube.com/watch?v=BQS?8F#ks-GB\6`D.R6l@:j4```와 같이 ```v=``` 뒷 부분이 이상한 문자열로 된 링크들이 존재한다. 각각의 이상한 문자열들을 base85 방식으로 디코딩하면 어떤 파일을 다운받을 수 있는 링크가 나오고 그 링크에서의 파일의 내용을 통해 ```password.zip``` 파일을 열 수 있다.
+base64 디코딩하면 어떤 구글 드라이브 주소가 나오고 이에 접속하면 ```flag.zip```, ```password.zip```, ```My_Study```가 존재하며 각각의 zip 파일은 비밀번호로 막혀있다. ```My_Study``` 폴더 안에는 ```Calculus```, ```Differential_Equations```, ```Linear_Algebra```, ```Number_Theory```라는 폴더가 존재하는데 각각의 폴더에는 ```https://www.youtube.com/watch?v=BQS?8F#ks-GB\6`D.R6l@:j4```와 같이 ```v=``` 뒷 부분이 이상한 문자열로 된 링크들이 존재한다. 각각의 이상한 문자열들을 base85 방식으로 디코딩하면 어떤 파일을 다운받을 수 있는 링크가 나오고 그 링크에서의 파일의 내용을 통해 ```password.zip``` 파일을 열 수 있다.
 
 ```
 ჰიצპოპץტომონსტროსესქუიპპედალიע
