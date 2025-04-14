@@ -1,20 +1,22 @@
 ---
-title: YISF 2024 All REV Write Up
+title: "[CTF] YISF 2024 Final All REV Write Up"
 date: 2025-01-08 03:35:20 +0900
 categories: [ctf, "2024"]
 tags: [ctf, yisf, rev]
 author: Tuple
-description: YISF 2024 Write Up (all rev)
+description: YISF 2024 Final Write Up (all rev)
 toc: true
 use_math: true
 ---
 
 ## YISF 2024
+---
 
 ![image](https://github.com/user-attachments/assets/0b836e43-fe5a-4f73-af77-c7e2b42bd553)
 제 22회 청소년 정보보호 페스티벌에 참가하여 예선전을 치루고 본선 진출 18명 중 18등으로 본선에 참가했었다. 당시 정션 아시아 및 데프콘과 같은 대회들이 겹쳐 분산된 탓에 실력이 턱없이 부족했던 나도 본선에 운좋게 참여할 수 있게 되었었다. 본선에서 출제된 리버싱 문제 3문제 중 1번 문제를 제외하고는 아무 것도 풀지 못 하였었고 미스크로 출제된 osint 문제를 하나 풀었었는데 어느 정도 실력을 쌓은 지금 리버싱 문제들을 다시 보니 ~~상당한 바보짓과 함께~~ 생각보다 수월하게 풀 수 있었고 다섯 달이 지난 지금에서야 라이트업을 작성하고자 한다. 당시 구글링 실력의 문제가 컸겠지만 ctf 대회 라이트업에 대해 다른 분야에 비해 리버싱이 적다는 생각에 안타까워 했었는데 이제는 내 손으로 적을 수 있게 되어 뿌듯하다는 마음이 든다.
 
 ## Anyone can do it
+---
 
 ```py
 import random as SiYiYsFyIsFySiFYfSiYsFyIsFfYiS
@@ -217,6 +219,7 @@ print(f.decode())
 여담으로 대회 당시 솔브 코드와 지금의 솔브 코드가 차이가 많이 나는데 당시에는 ```shuffle``` 함수의 역연산 코드도 잘못 작성했을 뿐만 아니라 가장 위의 코드가 시드 설정이라는 걸 이해 못 해서 모든 경우의 수에서 플래그를 찾는 방법으로 풀이했었다. (ㅋㅋ)
 
 ## baby magic square
+---
 
 ![image](https://github.com/user-attachments/assets/7dee9da7-650a-498d-9e4e-4155505313cd)
 제목에서부터 어떤 프로그램인지 힌트를 주는 문제이기 때문에 실행만으로도 많은 정보를 얻을 수 있다. 총 16번의 입력을 받고 ```incorrect```를 출력해주는데 최대 16번의 입력을 받는 것을 통해 4 * 4의 마방진을 그리는 문제라고 추측할 수 있다.
@@ -305,6 +308,7 @@ else:
 \+ 아직도 ```Flag ->```가 깨진 이유는 모르겠다.
 
 ## adult magic square
+---
 
 ![image](https://github.com/user-attachments/assets/08f56877-8515-4452-9354-8629965309c3)
 오히려 baby보다 쉬운 것 같은 느낌이 드는 문제이다. 실행해보면 baby와 표면적으로는 두 가지 차이점이 존재하는데 첫 번째는 ```order```를 입력받는다는 것, 두 번째는 입력받는 수의 개수가 37이라는 점이다. 이를 인지하고 분석에 들어가면 이 또한 분석은 그렇게 어렵지 않다. ```order```의 경우 위 스크린샷에서 보이듯 4가 아니면 프로그램이 종료되기 때문에 4로 고정된다.
