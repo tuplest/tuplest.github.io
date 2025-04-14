@@ -247,6 +247,9 @@ $sidebar-display: 'sidebar-display'; /* the attribute for sidebar display */
       }
     }
   } /* .sidebar-bottom */
+  background: url(/assets/img/back2.png);
+  background-size: 100% 100%;
+  background-position: center;
 } /* #sidebar */
 
 [#{$sidebar-display}] {
