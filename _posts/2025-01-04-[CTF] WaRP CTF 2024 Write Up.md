@@ -1,7 +1,7 @@
 ---
 title: "[CTF] WaRP CTF 2024 Write Up"
 date: 2025-01-04 11:18:07 +0900
-categories: [ctf, "2024"]
+categories: [CTF, "2024"]
 tags: [ctf, warp, rev, misc]
 author: Tuple
 description: WaRP CTF 2024 Write Up (rev/misc)
