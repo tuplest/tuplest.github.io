@@ -93,6 +93,7 @@ main {
   @extend %rounded;
 
   border: 0;
+  // background: #282730;
   background: var(--card-bg);
   box-shadow: var(--card-shadow);
 
