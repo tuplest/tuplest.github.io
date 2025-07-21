@@ -28,4 +28,4 @@ order: 4
 ---
 
 ## **Affiliation**
-- **TRUST**: KDMHS Hacking Club
+- **Trust**: KDMHS Hacking Club
