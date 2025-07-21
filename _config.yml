@@ -233,3 +233,4 @@ jekyll-archives:
 
 plugins:
    - jekyll-target-blank
+   - jekyll-sitemap
