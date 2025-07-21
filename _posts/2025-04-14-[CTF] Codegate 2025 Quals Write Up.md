@@ -1,6 +1,6 @@
 ---
 title: "[CTF] Codegate 2025 Quals Write Up"
-date: 2025-25.04.14 11:18:07 +0900
+date: 2025-04-14 11:18:07 +0900
 categories: [CTF, "2025"]
 tags: [ctf, codegate, rev, pwn, web, crypto, misc]
 author: Tuple
