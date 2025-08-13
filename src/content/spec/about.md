@@ -1,9 +1,18 @@
 # About
-This is the demo site for [Fuwari](https://github.com/saicaca/fuwari).
 
-::github{repo="saicaca/fuwari"}
+## **Name**
+- **임지윤** (Jiyun Lim)
 
-> ### Sources of images used in this site
-> - [Unsplash](https://unsplash.com/)
-> - [星と少女](https://www.pixiv.net/artworks/108916539) by [Stella](https://www.pixiv.net/users/93273965)
-> - [Rabbit - v1.4 Showcase](https://civitai.com/posts/586908) by [Rabbit_YourMajesty](https://civitai.com/user/Rabbit_YourMajesty)
+## **Nickname**
+- **Tuple** (tuplest)<br><br>
+
+## **Contact**
+- **Email**: [limjiyun08@gmail.com](mailto:limjiyun08@gmail.com)
+- **Discord**: [discord.tuplest](https://discordapp.com/users/1170277599705059400)<br><br>
+
+## **Education**
+- **Korea Digital Media High School** (2024.03 ~)
+  - Major: Hacking Defense<br><br>
+
+## **Affiliation**
+- **Trust**: KDMHS Hacking Club
