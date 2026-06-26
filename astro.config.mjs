@@ -154,6 +154,7 @@ export default defineConfig({
 		],
 	},
 	vite: {
+		assetsInclude: ['**/*.hwp'],
 		build: {
 			rollupOptions: {
 				onwarn(warning, warn) {
